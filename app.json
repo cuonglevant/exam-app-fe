@@ -31,7 +31,12 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
-        }
+        },
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "Chúng tôi cần quyền dùng camera để chụp ảnh",
+          "microphonePermissionText": "Chúng tôi cần quyền dùng micro để ghi âm"
+        },     
       ]
     ],
     "experiments": {
