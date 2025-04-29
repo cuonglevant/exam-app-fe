@@ -7,6 +7,8 @@ import StatisticScreen from 'components/Statistic';
 import InfoScreen from "./components/Info";
 import ReviewScreen from "./components/Review";
 
+import './global.css';
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
