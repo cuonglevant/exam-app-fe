@@ -1,11 +1,15 @@
-import { View, Text } from 'react-native';
-import React from 'react';
+import { View, Text, SafeAreaView, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
 
-const Score = () => {
+const Score = ({ navigation }) => {
   return (
-    <View>
-      <Text>Score</Text>
-    </View>
+    <SafeAreaView>
+      <View>
+        <TouchableOpacity onPress={() => navigation.navigate("Camera")}>
+          <Text>Open camera</Text>
+        </TouchableOpacity>
+      </View>
+    </SafeAreaView>
   );
 };
 

@@ -6,6 +6,7 @@ import ScoreScreen from "./components/Score";
 import StatisticScreen from 'components/Statistic';
 import InfoScreen from "./components/Info";
 import ReviewScreen from "./components/Review";
+import CameraScreen from "./components/Camera";
 
 import './global.css';
 
@@ -21,6 +22,7 @@ export default function App() {
         <Stack.Screen name="Review" component={ReviewScreen} />
         <Stack.Screen name="Statistic" component={StatisticScreen} />
         <Stack.Screen name="Info" component={InfoScreen} />
+        <Stack.Screen name="Camera" component={CameraScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
