@@ -14,9 +14,15 @@ export default function CameraScreen() {
 
   useEffect(() => {
     Camera.requestCameraPermission().then((status) => {
-      setPermission(
-        status === 'granted' ? 'authorized' : status === 'denied' ? 'denied' : 'not-determined'
-      );
+      let permissionStatus: 'authorized' | 'denied' | 'not-determined';
+      if (status === 'granted') {
+        permissionStatus = 'authorized';
+      } else if (status === 'denied') {
+        permissionStatus = 'denied';
+      } else {
+        permissionStatus = 'not-determined';
+      }
+      setPermission(permissionStatus);
     });
   }, []);
 

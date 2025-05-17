@@ -1,5 +1,6 @@
-import { View } from 'react-native';
 import { useRoute } from '@react-navigation/native';
+import { View } from 'react-native';
+
 import { Header } from '../ui/Header';
 
 export default function SettingScreen() {
