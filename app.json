@@ -43,6 +43,11 @@
         "android.permission.CAMERA"
       ],
       "package": "com.cuonglevant.examapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6051ffef-4783-4cf6-9aca-ce5cfb2dd7d5"
+      }
     }
   }
 }

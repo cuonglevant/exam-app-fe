@@ -8,11 +8,8 @@ interface HeaderProps {
 export function Header({ title }: HeaderProps) {
   const insets = useSafeAreaInsets();
   return (
-    <>
-      <View style={{ height: insets.top, backgroundColor: 'transparent' }} />
-      <View className="rounded-t-xl bg-orange-500 px-4 py-3">
-        <Text className="text-2xl font-bold text-white">{title}</Text>
-      </View>
-    </>
+    <View style={{ paddingTop: insets.top }} className="h-20 rounded-t-xl bg-orange-500 px-4 py-3">
+      <Text className="mt-2 text-2xl font-bold text-white">{title}</Text>
+    </View>
   );
 }
