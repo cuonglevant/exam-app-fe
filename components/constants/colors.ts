@@ -3,5 +3,5 @@ export const COLORS = {
   beige: '#fff1db',
   darkBlue: '#536493',
   brown: '#d4bdac',
-  primary: '#16a34a', // green-600 for consistency with usage
+  primary: '#16a34a', 
 };

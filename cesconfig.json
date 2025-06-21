@@ -1,6 +1,6 @@
 {
   "cesVersion": "2.14.3",
-  "projectName": "my-expo-app",
+  "projectName": "Exam App",
   "packages": [
     {
       "name": "nativewind",
@@ -13,7 +13,7 @@
     "overwrite": false,
     "importAlias": true,
     "packageManager": "npm",
-    "eas": false,
+    "eas": true,
     "publish": false
   },
   "packageManager": {
